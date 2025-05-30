@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/web/home_page.jsp</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/web/reminder.jsp</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/model/Reminder.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/build/web/index.jsp</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/build/web/login_page.jsp</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/build/web/registration_page.jsp</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/build/web/reminder.jsp</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/ReminderServlet/ReminderServlet.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/model/Task.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/model/Note.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/build/web/note.jsp</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/NoteServlet/NoteServlet.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/AlarmServlet/AlarmServlet.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/web/note.jsp</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/build/web/home_page.jsp</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/web/registration_page.jsp</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/web/login_page.jsp</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/ActivityServlet/AddActivityServlet.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/ActivityServlet/EditActivityServlet.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/ActivityServlet/DeleteActivityServlet.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/AlarmServlet/AddAlarmServlet.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/AlarmServlet/EditAlarmServlet.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/AlarmServlet/DeleteAlarmServlet.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/NoteServlet/AddNoteServlet.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/NoteServlet/DeleteNoteServlet.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/NoteServlet/EditNoteServlet.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/ReminderServlet/AddReminderServlet.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/ReminderServlet/DeleteReminderServlet.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/ReminderServlet/EditReminderServlet.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/TaskServlet/AddTaskServlet.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/TaskServlet/EditTaskServlet.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/TaskServlet/DeleteTaskServlet.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/ActivityServlet/ActivityServlet.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/HomeServlet/HomeServlet.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/servlets/TestServlet.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/config/DB.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/model/Alarm.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/JournalEntryServlet/JournalEntryServlet.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/JournalEntryServlet/AddJournalEntryServlet.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/JournalEntryServlet/DeleteJournalEntryServlet.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/JournalEntryServlet/EditJournalEntryServlet.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/model/JournalEntry.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/TaskServlet/TaskServlet.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/web/index.jsp</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/LoginServlet/LoginServlet.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/LogoutServlet/LogoutServlet.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/RegistationServlet/RegistrationServlet.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/model/Activity.java</file>
+            <file>file:/C:/Users/Fathan%20Fardian%20Sanum/OneDrive/Documents/NetBeansProjects/BackupTubes/src/java/model/ToDoItem.java</file>
+        </group>
+    </open-files>
+</project-private>
