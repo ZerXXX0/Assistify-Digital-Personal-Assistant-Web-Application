@@ -26,11 +26,6 @@ public class Alarm {
         this.time = time;
         this.status = status;
     }
-    
-    public Alarm(LocalDateTime time, String status) {
-        this.time = time;
-        this.status = status;
-    }
 
     // Database operations
     public boolean saveToDatabase(DB db) {
