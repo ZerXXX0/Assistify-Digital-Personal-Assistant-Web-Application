@@ -1,6 +1,6 @@
 # Ignore all JARs except those in lib/
-#*.jar
-#!lib/*.jar
+*.jar
+!lib/*.jar
 
 # Optional: ignore build artifacts
 build/
