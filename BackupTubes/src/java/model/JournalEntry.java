@@ -91,8 +91,8 @@ public class JournalEntry {
         this.id = id;
     }
 
-    public Timestamp getEntrydate() {
-        return entrydate;
+    public String getEntrydate() {
+        return "" + entrydate;
     }
 
     public void setEntrydate(Timestamp entrydate) {

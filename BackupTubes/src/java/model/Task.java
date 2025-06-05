@@ -16,26 +16,24 @@ public class Task {
     private String title;
     private String description;
     private Timestamp startTime;
-    private Timestamp endTime;
+
     private Integer priority;
 
     // Constructors
     public Task() {}
     
-    public Task(int idtask, String title, String description, Timestamp startTime, Timestamp endTime, Integer priority) {
+    public Task(int idtask, String title, String description, Timestamp startTime, Integer priority) {
         this.idtask = idtask;
         this.title = title;
         this.description = description;
         this.startTime = startTime;
-        this.endTime = endTime;
         this.priority = priority;
     }
     
-    public Task(String title, String description, Timestamp startTime, Timestamp endTime, Integer priority) {
+    public Task(String title, String description, Timestamp startTime, Integer priority) {
         this.title = title;
         this.description = description;
         this.startTime = startTime;
-        this.endTime = endTime;
         this.priority = priority;
     }
 
@@ -44,7 +42,7 @@ public class Task {
         try {
             String query = "INSERT INTO task (title, description, startTime, endTime, priority) VALUES ('" + 
                           title + "', '" + (description != null ? description : "") + "', '" + 
-                          startTime + "', '" + endTime + "', " + (priority != null ? priority : "NULL") + ")";
+                          startTime + "', '" + (priority != null ? priority : "NULL") + ")";
             db.runQuery(query);
             return true;
         } catch (Exception e) {
@@ -65,7 +63,6 @@ public class Task {
                     rs.getString("title"),
                     rs.getString("description"),
                     rs.getTimestamp("startTime"),
-                    rs.getTimestamp("endTime"),
                     rs.getObject("priority") != null ? rs.getInt("priority") : null
                 );
                 tasks.add(task);
@@ -87,7 +84,6 @@ public class Task {
                     rs.getString("title"),
                     rs.getString("description"),
                     rs.getTimestamp("startTime"),
-                    rs.getTimestamp("endTime"),
                     rs.getObject("priority") != null ? rs.getInt("priority") : null
                 );
             }
@@ -100,8 +96,7 @@ public class Task {
     public boolean updateTask(DB db) {
         try {
             String query = "UPDATE task SET title = '" + title + "', description = '" + 
-                          (description != null ? description : "") + "', startTime = '" + startTime + 
-                          "', endTime = '" + endTime + "', priority = " + 
+                          (description != null ? description : "") + "', startTime = '" + startTime + "', priority = " + 
                           (priority != null ? priority : "NULL") + " WHERE idtask = " + idtask;
             db.runQuery(query);
             return true;
@@ -152,20 +147,12 @@ public class Task {
         this.description = description;
     }
 
-    public Timestamp getStartTime() {
-        return startTime;
+    public String getStartTime() {
+        return "" + startTime;
     }
 
     public void setStartTime(Timestamp startTime) {
         this.startTime = startTime;
-    }
-
-    public Timestamp getEndTime() {
-        return endTime;
-    }
-
-    public void setEndTime(Timestamp endTime) {
-        this.endTime = endTime;
     }
 
     public Integer getPriority() {

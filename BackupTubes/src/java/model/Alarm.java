@@ -110,8 +110,8 @@ public class Alarm {
         this.id = id;
     }
 
-    public LocalDateTime getTime() {
-        return time;
+    public String getTime() {
+        return "" + time;
     }
 
     public void setTime(LocalDateTime time) {

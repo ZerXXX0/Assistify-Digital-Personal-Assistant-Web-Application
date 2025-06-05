@@ -110,8 +110,8 @@ public class VoiceNote {
         this.voiceNote = voiceNote;
     }
 
-    public LocalDateTime getCreatedDate() {
-        return createdDate;
+    public String getCreatedDate() {
+        return "" + createdDate;
     }
 
     public void setCreatedDate(LocalDateTime createdDate) {

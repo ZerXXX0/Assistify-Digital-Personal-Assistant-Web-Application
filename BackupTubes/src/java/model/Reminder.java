@@ -120,8 +120,8 @@ public class Reminder {
         this.id = id;
     }
 
-    public Timestamp getTime() {
-        return time;
+    public String getTime() {
+        return "" + time;
     }
 
     public void setTime(Timestamp time) {

@@ -108,8 +108,8 @@ public class TextNote {
         this.textNote = textNote;
     }
 
-    public LocalDateTime getCreatedDate() {
-        return createdDate;
+    public String getCreatedDate() {
+        return "" + createdDate;
     }
 
     public void setCreatedDate(LocalDateTime createdDate) {

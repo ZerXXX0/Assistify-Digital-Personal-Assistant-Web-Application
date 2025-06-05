@@ -151,8 +151,8 @@ public class Note {
         this.voiceNote = voiceNote;
     }
 
-    public Timestamp getCreatedDate() {
-        return createdDate;
+    public String getCreatedDate() {
+        return "" + createdDate;
     }
 
     public void setCreatedDate(Timestamp createdDate) {
