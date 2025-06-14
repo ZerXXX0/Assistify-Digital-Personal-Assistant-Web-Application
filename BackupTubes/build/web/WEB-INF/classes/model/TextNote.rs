@@ -1,2 +1,0 @@
-TextNote$TextNote
-TextNote
